@@ -1,0 +1,217 @@
+
+
+/* Apply capsule style to search bar input */
+.form-control.capsule-input {
+    border-radius: 25px; /* Default radius */
+}
+
+/* Apply capsule style to search button */
+.btn.capsule-button {
+    border-radius: 25px; /* Default radius */
+}
+
+@media(min-width:1000px) {
+    .btn-offcanvas{
+        display: none;
+    }
+}
+.btn-search{
+    padding-top: 10px;
+}
+/* Responsive adjustments */
+@media (max-width: 1500px) {
+    /* Adjust the radius for smaller screens */
+    .form-control.capsule-input,
+    .btn.capsule-button {
+        border-radius: 15px;
+    }
+    .navbar-icons {
+        padding-left: 12px;
+        display: flex;
+        align-items: center;
+        gap: 12px; /* Adjust as needed */
+    }
+
+    .navbar-icons svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .language-selector::before {
+        font-size: 1rem;
+        right: 4px; /* Adjust the position */
+    }
+
+    /* Button size adjustments */
+    .btn {
+        height: 35px;
+        width: 80px;
+    }
+    b{
+        font-size: 17px;
+    }
+}
+
+
+b{
+    font-size: 25px;
+}
+.navbar-icons {
+    padding-left: 10px;
+    display: flex;
+    justify-items: center;
+    gap: 19px; /* Adjust as needed */
+}
+
+.navbar-icons-mar {
+    margin-top: 9px;
+}
+
+.navbar-icons svg {
+    width: 30px;
+    height: 30px;
+}
+body{
+    margin:3px;
+}
+
+.language-selector {
+    position: relative;
+}
+table {
+    width: 100%;
+}
+
+td {
+    padding: 2%;
+    padding-left:5% ; 
+    font-weight: bold; 
+    /* You can adjust the padding as needed */
+}
+
+/* To style the ':' column specifically */
+td:nth-child(2) {
+    text-align: center; /* Center align the ':' column */
+}
+tr td {
+    text-align: left;
+}
+
+.language-selector::before {
+    content: "\f0ac"; /* Unicode for globe icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+}
+.border-rad{
+    border-radius: 7px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 4px 5px 3.2px rgb(151, 151, 151),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+  
+
+/* Add background colors to custom classes */
+.custom-col-1 {
+    background-color: #FF5733; /* Example color */
+}
+
+.custom-col-2 {
+    background-color: #33FF57; /* Example color */
+}
+
+.custom-col-3 {
+    background-color: #5733FF; /* Example color */
+}
+
+.custom-col-4 {
+    background-color: #33A9FF; /* Example color */
+
+}
+.custom-col-5 {
+    background-color: #dc60ec; /* Example color */
+
+}
+.custom-col-1,
+.custom-col-2,
+.custom-col-3,
+.custom-col-4,
+.custom-col-5 {
+    margin: 15px; /* Adjust spacing as needed */
+    border-radius: 13px; /* Add border radius */
+    padding: 12px;
+}
+
+.txt{
+    font-size: large;
+}
+.divsize{
+    height: 178px;
+    min-height: 150px;
+    min-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes slide {
+    from{
+        transform:translateY(0);
+    } to{
+        transform: translateY(-100%);
+    }
+}
+.autoscroll{
+    display:inline;
+    animation: 11s slide infinite linear;
+}
+a{
+    color:black;
+}
+body{
+    background-color:rgb(218, 204, 224);
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* Custom CSS for vertical carousel */
+#eventCarousel {
+    height: 178px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: column-reverse; /* Display items in reverse order (bottom to top) */
+}
+
+.carousel-item {
+    transition: transform 0.6s ease-in-out; /* Add smooth transition animation */
+}
+
+.event-list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0; /* Remove default margin */
+}
+.beautify1 {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 4px 5px 3.2px rgb(141, 144, 146),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius:8px ;
+}
+.beautify2 {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 4px 5px 3.2px rgb(151, 151, 151),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.beautifynav{
+    box-shadow:  0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 4px 5px 3.2px rgb(151, 151, 151),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3)
+}

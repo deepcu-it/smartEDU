@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Registration</title>
+</head>
+<body>
+    
+    <%-include("nav.ejs")%>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/homepage1.jpg" class="d-block w-100" alt="lol">
+            <div class="carousel-caption">
+                <button class="btnn" onclick="window.location.href='/login'" type="button">Login</button>
+                <button class="btnn" onclick="window.location.href='/register'" type="button">Register</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/homepage2.jpg" class="d-block w-100" alt="lulu">
+            <div class="carousel-caption">
+                <input class="btnn" type="button" name="Login" onclick="window.location.href='/login'" value="Login">
+                <input class="btnn" type="button" onclick="window.location.href='/register'" name="Register" value="Register">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/homepage3.avif" class="d-block w-100" alt="koko">
+            <div class="carousel-caption">
+                <input class="btnn " type="button" onclick="window.location.href='/login'" name="Login" value="Login">
+                <input class="btnn " type="button" onclick="window.location.href='/register'" name="Register" value="Register">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    
+    <script src="function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
