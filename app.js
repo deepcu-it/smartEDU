@@ -18,7 +18,7 @@ Eventitems.push("Lets have a look");
 Eventitems.push(2);
 Eventitems.push(3);
 app.get("/",function(req,res) {
-    res.render("home.ejs");
+    res.render("index.html");
 });
 
 app.get("/login",function(req,res) {
